@@ -4060,7 +4060,7 @@ h6 {
   height: 100vh;
   background-repeat: repeat;
   background-position: top left;
-  background-image: url(../imgs/writer/body-bg.png);
+  background-image: url(../img/body-bg.png);
 }
 
 .sidebar-left {
@@ -22939,7 +22939,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   }
 }
 .health-header__logo img {
-  max-width: 100px;
+  max-width: 220px;
 }
 @media only screen and (max-width: 1199px) {
   .health-header__menu {
@@ -23254,7 +23254,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 }
 .health-fitness__leaf {
   position: absolute;
-  max-width: 300px;
+  max-width: 200px;
   top: -90px;
   left: 60px;
   z-index: 0;
@@ -23356,7 +23356,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   position: absolute;
   bottom: 200px;
   left: 140px;
-  max-width: 300px;
+  max-width: 200px;
 }
 @media only screen and (max-width: 1919px) {
   .health-about__leaf {
@@ -23383,7 +23383,7 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
   position: absolute;
   right: 0;
   bottom: 140px;
-  max-width: 250px;
+  max-width: 170px;
 }
 @media only screen and (max-width: 1199px) {
   .health-about__leaf-2 {
