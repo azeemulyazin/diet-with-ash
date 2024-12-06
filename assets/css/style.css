@@ -18234,15 +18234,10 @@ section {
 }
 @media only screen and (max-width: 1199px) {
   .offcanvas__logo img {
-    max-width: 110px;
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 767px) {
-  .offcanvas__logo img {
-    max-width: 90px;
-  }
-}
+
 @media only screen and (max-width: 1199px) {
   .offcanvas__logo p {
     display: none;

@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Aswathi - Nutritionist">
 
-  <title>Home - Nutritionist</title>
+  <title>Services - NutritionistCourses</title>
 
   <!-- Fav Icon -->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
@@ -38,7 +38,7 @@
 
 
   <!-- Preloader -->
- <div id="preloader">
+  <div id="preloader">
     <div id="container" class="container-preloader">
       <div class="animation-preloader">
         <div class="txt-loading">
@@ -70,7 +70,7 @@
   </div>
 
 
-  
+ 
 
 
   <!-- Offcanves start -->
@@ -146,76 +146,52 @@
 
         <!-- Header area start -->
         <header class="health-header__area">
-          <div class="health-header__inner">
-            <div class="health-header__logo">
-              <a href="index-light.html"><img src="assets/img/logo.png" alt="Logo"></a>
+            <div class="health-header__inner">
+              <div class="health-header__logo">
+                <a href="index-light.html"><img src="assets/img/logo.png" alt="Logo"></a>
+              </div>
+              <div class="health-header__menu">
+                <nav class="main-menu">
+                  <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about Me</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">Testimonials</a></li>
+                    <li><a href="index.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="health-header__cart">
+                <button id="open_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOne">
+                  <img src="assets/img/menu-icon.png" alt="Icon">
+                </button>
+              </div>
             </div>
-            <div class="health-header__menu">
-              <nav class="main-menu">
-                <ul>
-                  <li><a href="index.html">home</a></li>
-                  <li><a href="about.html">about Me</a></li>
-                  <li><a href="services.html">Services</a></li>
-                  <li><a href="about.html">Testimonials</a></li>
-                  <li><a href="index.html">Blogs</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-            <div class="health-header__cart">
-              <button id="open_offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasOne">
-                <img src="assets/img/menu-icon.png" alt="Icon">
-              </button>
-            </div>
-          </div>
-        </header>
+          </header>
         <!-- Header area end -->
 
 
-        <!-- Hero section start -->
-        <section class="health-hero__area">
-          <div class="health-container">
-            <div class="health-hero__inner">
-              <div class="health-hero__left">
-                <h1 class="health-hero__title has_word_anim" data-on-scroll="0" data-stagger="0.2" data-duration="1.5">
-                  I’m Aswathi <br> Your Nutritionist <br>Based in <br>
-                    Kerala</h1>
-                
-                <!-- <h2 class="health-hero__rating has_fade_anim">4.9 <i class="fa-solid fa-star"></i> (2.2k reviews)</h2>
-                <div class="creator-hero__imgs cf_client_image has_fade_anim">
-                  <img src="../assets/imgs/health/r1.png" alt="Image">
-                  <img src="../assets/imgs/health/r2.png" alt="Image">
-                  <img src="../assets/imgs/health/r3.png" alt="Image">
-                  <span class="last">2k+</span>
-                </div> -->
-              </div>
-              <div class="health-hero__right cf_image">
-                <img src="assets/img/aswathi-dp.png" alt="Image">
-              </div>
-            </div>
-          </div>
-          
-        </section>
-        <!-- Hero section end -->
-
-
         <!-- Fitness section start -->
-         <section class="health-fitness__area pt-130 pb-140">
+        <section class="health-fitness__area pt-130 pb-140">
           <div class="health-container">
             <div class="health-fitness__inner zi-1">
               <div class="sec-title-wrap pb-60">
-                <h2 class="sec-title-17 has_text_reveal_anim">My health fitness <br> programs</h2>
+                <h1 class="sec-title-17 has_text_reveal_anim">My health fitness <br> programs</h1>
               </div>
 
               <div class="health-fitness__list">
                 <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100">
                   <div class="health-fitness__thumb mb-25 blog-img-zoom">
-                    <a href="course-details-light.html">
-                      <img src="assets/img/plan-1.png" alt="Image">
-                      
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/f1.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
                     </a>
                   </div>
-                  <a href="course-details-light.html" class="cf_link_heading">
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
                     <h3 class="health-fitness__title">Daily Nutrition <br> Plan</h3>
                   </a>
                 </div>
@@ -223,266 +199,91 @@
                 <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100"
                   data-delay="0.65">
                   <div class="health-fitness__thumb mb-25 blog-img-zoom">
-                    <a href="course-details-light.html">
-                      <img src="assets/img/plan-2.png" alt="Image">
-                      
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/f2.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
                     </a>
                   </div>
-                  <a href="course-details-light.html" class="cf_link_heading">
-                    <h3 class="health-fitness__title">Weight Gain <br> Program</h3>
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
+                    <h3 class="health-fitness__title">Daily Exercise <br> Program</h3>
                   </a>
                 </div>
+
                 <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100"
                   data-delay="0.8">
                   <div class="health-fitness__thumb mb-25 blog-img-zoom">
-                    <a href="course-details-light.html">
-                      <img src="assets/img/plan-3.png" alt="Image">
-                      
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/f3.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
                     </a>
                   </div>
-                  <a href="course-details-light.html" class="cf_link_heading">
-                    <h3 class="health-fitness__title">Weight Loss<br> Program</h3>
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
+                    <h3 class="health-fitness__title">Daily Routine <br> Program</h3>
+                  </a>
+                </div>
+
+                <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100"
+                  data-delay="0.8">
+                  <div class="health-fitness__thumb mb-25 blog-img-zoom">
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/inner/5.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
+                    </a>
+                  </div>
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
+                    <h3 class="health-fitness__title">Food Safety and <br> Immunity </h3>
+                  </a>
+                </div>
+
+                <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100"
+                  data-delay="0.8">
+                  <div class="health-fitness__thumb mb-25 blog-img-zoom">
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/inner/6.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
+                    </a>
+                  </div>
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
+                    <h3 class="health-fitness__title">Daily Routine <br> Program</h3>
+                  </a>
+                </div>
+
+                <div class="health-fitness__item has_fade_anim" data-fade-from="left" data-fade-offset="100"
+                  data-delay="0.8">
+                  <div class="health-fitness__thumb mb-25 blog-img-zoom">
+                    <a href="course-details.html">
+                      <img src="../assets/imgs/health/inner/5.jpg" alt="Image">
+                      <div class="info">
+                        <p>More info</p>
+                      </div>
+                    </a>
+                  </div>
+                  <h3 class="health-fitness__duration pb-15">03 Month</h3>
+                  <a href="course-details.html" class="cf_link_heading">
+                    <h3 class="health-fitness__title">Meditation & <br> Psychics</h3>
                   </a>
                 </div>
               </div>
-              <div class="health-product__btn pt-65 cf_btn has_fade_anim" data-fade-from="top" data-ease="bounce">
-                <a class="wc-btn-primary btn-hover-cropping" href="services.html">All Services</a>
-              </div>
             </div>
-          </div>
-          <div class="cf_image health-fitness__leaf">
-            <img class="leaf" src="assets/img/bowl.png" alt="bowl" data-speed="0.7">
           </div>
         </section>
         <!-- Fitness section end -->
 
 
-        <!-- About section start -->
-        <section class="health-about__area pb-150">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="health-about__left has_fade_anim" data-fade-from="right">
-                  <div class="cf_image">
-                    <img src="assets/img/about-img.png" alt="Image" data-speed="0.9">
-                  </div>
-
-                  <div class="health-about__circle">
-                    <a href="#">
-                      <div class="subscribe-circle cf_circle has_fade_anim" data-fade-offset="150" data-delay="1"
-                        data-duration="1">
-                        <img class="text" src="assets/img/subscribe.png" alt="Subscribers">
-                        <img class="arrow" src="assets/img/arrow.png" alt="Arrow Icon">
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="health-about__right pt-60">
-                  <h2 class="sec-title-17 has_text_reveal_anim">Empowering  <br>  Health, <br> One Bite at a Time</h2>
-                  <div class="text cf_text health-about__text has_text_move_anim pt-40 pb-40">
-                    <p>As a dedicated nutritionist, I am passionate about helping individuals achieve their health goals through personalized and sustainable dietary plans. With a focus on balanced nutrition and a holistic approach, I empower my clients to make informed choices, improve their well-being, and live healthier lives.</p>
-                  </div>
-                  <div class="cf_image has_fade_anim" data-ease="bounce" data-fade-from="top">
-                    <img src="assets/img/signature.png" alt="Signiture" class="show-dark">
-                   
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="cf_image health-about__leaf">
-            <img src="assets/img/bowl.png" alt="bowl" data-speed="1.1">
-          </div>
-
-          <div class="cf_image health-about__leaf-2">
-            <img src="assets/img/bowl-2.png" alt="bowl" data-speed="0.7">
-          </div>
-        </section>
-        <!-- About section end -->
-
-
-        <!-- Video area start -->
-        <!-- <div class="video__full health-video">
-          <video src="https://wealcoder.com/dev/video/yoga.mp4" autoplay="" loop="" muted=""></video>
-        </div> -->
-        <!-- Video area end -->
-
-
-        <!-- Choose section end -->
-        <section class="health-choose__area pt-130 pb-150">
-          <div class="health-container">
-            <div class="health-choose__inner">
-              <div class="sec-title-wrap pb-90">
-                <h2 class="sec-title-17 has_text_reveal_anim">Why a person <br> needs an experienced <br> Nutritionist
-                </h2>
-              </div>
-
-              <div class="health-choose__grid">
-                <div class="health-choose__item cf_iconbox has_fade_anim" data-fade-from="left" data-delay="0.5">
-                  <div class="wcf__iconbox style-3">
-                    <div class="icon">
-                      <img src="assets/img/healthcare.png" alt="Icon" width="90">
-                    </div>
-                    <h2 class="title">Health <br> Awareness</h2>
-                    <p class="desc">I prioritize educating and empowering you to make informed decisions about your health. By focusing on awareness, I help you understand your body’s needs and guide you toward achieving long-term well-being through balanced and sustainable nutrition.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="health-choose__item cf_iconbox has_fade_anim" data-fade-from="left" data-delay="0.65">
-                  <div class="wcf__iconbox style-3">
-                    <div class="icon">
-                      <img src="assets/img/fitness.png" alt="Icon" width="90">
-                    </div>
-                    <h2 class="title">Nutrition <br> Routine</h2>
-                    <p class="desc">I focus on creating personalized nutrition routines that fit seamlessly into your lifestyle. By emphasizing balanced and sustainable habits, I help you achieve your health goals while ensuring long-term well-being and vitality.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="health-choose__item cf_iconbox has_fade_anim" data-fade-from="left" data-delay="0.8">
-                  <div class="wcf__iconbox style-3">
-                    <div class="icon">
-                      <img src="assets/img/support.png" alt="Icon" width="90">
-                    </div>
-                    <h2 class="title">Individual <br> Support</h2>
-                    <p class="desc">I provide personalized guidance tailored to your unique health needs and goals. With dedicated one-on-one support, I ensure you stay motivated and empowered throughout your journey to better health.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="health-choose__item cf_iconbox has_fade_anim" data-fade-from="left" data-delay="0.95">
-                  <div class="wcf__iconbox style-3">
-                    <div class="icon">
-                      <img src="assets/img/advice.svg" alt="Icon" width="90">
-                    </div>
-                    <h2 class="title">First-Hand <br> Advice</h2>
-                    <p class="desc">I offer practical, evidence-based advice rooted in professional expertise and real-world experience. My goal is to provide you with clear and actionable steps to make informed choices for a healthier lifestyle.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-
-          
-        </section>
-        <!-- Choose section start -->
-
-
-        <!-- Text Slider area start -->
-        <!-- <div class="health-textslider__area">
-
-          <div class="health__textslider has_fade_anim">
-            <div class="swiper text__slider" data-sliderSpeed="20000" data-autoPlay="true">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">content</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h3 class="title">(Health Advisor & Coach)</h3>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">News</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">creative director</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">creative director</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">creative director</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">Research</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="text-slide-content">
-                    <h2 class="title">creative director</h2>
-                    <img src="../assets/imgs/health/shape-3.png" alt="Icon">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- Text Slider area end -->
-
-
-        <!-- Gallery section start -->
-        <!-- <section class="health-gallery__area pt-120 pb-140">
-          <div class="health-gallery__inner">
-            <div class="sec-title-wrap">
-              <h2 class="sec-title-17 has_text_reveal_anim">Shape of nature and <br> herbal teas!</h2>
-            </div>
-
-            <div class="health-gallery__flex">
-              <div class="health-gallery__item has_fade_anim" data-fade-from="left" data-delay="0.5">
-                <div class="cf_image">
-                  <img src="../assets/imgs/health/g1.png" alt="Thumbnail">
-                </div>
-                <h3 class="health-gallery__title">Body Shape <br> Phase</h3>
-              </div>
-
-              <div class="health-gallery__item has_fade_anim" data-fade-from="left" data-delay="0.65">
-                <div class="cf_image">
-                  <img src="../assets/imgs/health/g2.png" alt="Thumbnail">
-                </div>
-                <h3 class="health-gallery__title">Knee foot <br> down</h3>
-              </div>
-
-              <div class="health-gallery__item has_fade_anim" data-fade-from="left" data-delay="0.8">
-                <div class="cf_image">
-                  <img src="../assets/imgs/health/g3.png" alt="Thumbnail">
-                </div>
-                <h3 class="health-gallery__title">Health bulk <br> Cased</h3>
-              </div>
-
-              <div class="health-gallery__item has_fade_anim" data-fade-from="left" data-delay="0.95">
-                <div class="cf_image">
-                  <img src="../assets/imgs/health/g4.png" alt="Thumbnail">
-                </div>
-                <h3 class="health-gallery__title">Masta <br> Misconeriya</h3>
-              </div>
-            </div>
-          </div>
-
-          <div class="cf_image health-gallery__leaf">
-            <img src="../assets/imgs/health/leaf-5.png" alt="Leaf Image" data-speed="0.8">
-          </div>
-        </section>  -->
-        <!-- Gallery section end -->
-
-
         <!-- Testimonial section start -->
-        <!-- <section class="health-testimonial__area pt-150 pb-150">
+        <section class="health-testimonial__area pt-150 pb-150">
           <div class="container">
             <div class="health-testimonial__slider-wrap">
               <div class="cf_image mb-55">
@@ -566,153 +367,67 @@
           <div class="cf_image health-testimonial__image-3">
             <img src="../assets/imgs/health/t1.png" alt="Image" data-speed=".8">
           </div>
-        </section> -->
+        </section>
         <!-- Testimonial section end -->
 
 
-        <!-- Blog section start -->
-        <!-- <section class="health-blog__area pt-130 pb-140">
+        <!-- Price area start -->
+        <section class="health-plan__area pb-10 pt-130">
           <div class="health-container">
-            <div class="health-blog__inner zi-1">
-              <div class="health-blog__top pb-70">
-                <h2 class="sec-title-17 has_text_reveal_anim">Health tips <br> that ever need <br> you</h2>
-                <div class="health-blog__info">
-                  <div class="cf_text health-blog__text pb-20 has_text_move_anim">
-                    <p>You have put them in online courses that works with your everyday routines at a fraction of the
-                      recent articles.</p>
-                  </div>
-                  <div class="cf_btn_link has_fade_anim d-inline-block" data-fade-from="top" data-ease="bounce">
-                    <a class="wc-btn-underline" href="blog-light.html"> Explore more <i
-                        class="fa-solid fa-arrow-right"></i></a>
-                  </div>
+            <div class="health-plan__inner">
+              <div class="health-plan__left">
+                <h2 class="sec-title-17 has_text_reveal_anim">Choose <br> your plan</h2>
+                <div class="cf_text health-plan__text pt-50 has_text_move_anim">
+                  <p>Affordable and amazing pricing plan for you.</p>
                 </div>
               </div>
-              <div class="health-blog__btm">
-                <article class="health-blog__item has_fade_anim anim_img_zoom" data-fade-from="left">
-                  <div class="cf__image">
-                    <a href="blog-details-light.html"><img src="../assets/imgs/health/b1.jpg" alt="Thumbnail"></a>
-                  </div>
-                  <div class="content">
-                    <a href="blog-details-light.html">
-                      <h3 class="health-blog__title">15 amazing things you can do everyday for your health</h3>
-                    </a>
-                    <p>January 18, 2023</p>
-                  </div>
-                </article>
-                <article class="health-blog__item has_fade_anim anim_img_zoom" data-fade-from="left" data-delay="0.65">
-                  <div class="cf__image">
-                    <a href="blog-details-light.html"><img src="../assets/imgs/health/b2.jpg" alt="Thumbnail"></a>
-                  </div>
-                  <div class="content">
-                    <a href="blog-details-light.html">
-                      <h3 class="health-blog__title">Every morning glad routines that nourish my body & soul</h3>
-                    </a>
-                    <p>January 18, 2023</p>
-                  </div>
-                </article>
-              </div>
-            </div>
-          </div>
 
-          <div class="cf_image health-blog__leaf">
-            <img src="../assets/imgs/health/leaf-6.png" alt="image" data-speed="0.7">
-          </div>
-        </section> -->
-        <!-- Blog section end -->
-
-
-        <!-- Brand section start -->
-        <!-- <div class="health-partner__area mbm-1">
-          <div class="health-container">
-            <div class="swiper brand_logo_slider" data-autoPlay="true" data-sliderSpeed="6000">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-01.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-01-dark.png" alt="Brand Logo" class="show-light">
+              <div class="health-plan__right">
+                <div class="health-plan__item pt-40 pb-40 has_fade_anim">
+                  <h3 class="health-plan__type">Monthly <br> Plan</h3>
+                  <div class="health-plan__cost">$12</div>
+                  <ul class="health-plan__feature">
+                    <li>Healthy Digestion</li>
+                    <li>Boosts Immune System</li>
+                    <li>Natural Antioxidant</li>
+                  </ul>
+                  <div class="health-plan__btn">
+                    <a class="wc-btn-border btn-hover-cropping" href="#">Join Now</a>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-02.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-02-dark.png" alt="Brand Logo" class="show-light">
+                <div class="health-plan__item pt-40 pb-40 has_fade_anim">
+                  <h3 class="health-plan__type">Quarterly <br> Plan</h3>
+                  <div class="health-plan__cost">$39</div>
+                  <ul class="health-plan__feature">
+                    <li>Healthy Digestion</li>
+                    <li>Boosts Immune System</li>
+                    <li>Natural Antioxidant</li>
+                  </ul>
+                  <div class="health-plan__btn">
+                    <a class="wc-btn-border btn-hover-cropping" href="#">Join Now</a>
                   </div>
                 </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-03.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-03-dark.png" alt="Brand Logo" class="show-light">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-04.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-05.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-07.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-07-dark.png" alt="Brand Logo" class="show-light">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-06.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-07-dark.png" alt="Brand Logo" class="show-light">
-                  </div>
-                </div>
-                <div class="swiper-slide">
-                  <div class="brand__logo">
-                    <img src="../assets/imgs/athletic/br-04.png" alt="Brand Logo" class="show-dark">
-                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
+                <div class="health-plan__item pt-40 pb-40 has_fade_anim">
+                  <h3 class="health-plan__type">Yearly <br> Plan</h3>
+                  <div class="health-plan__cost">$49</div>
+                  <ul class="health-plan__feature">
+                    <li>Healthy Digestion</li>
+                    <li>Boosts Immune System</li>
+                    <li>Natural Antioxidant</li>
+                  </ul>
+                  <div class="health-plan__btn">
+                    <a class="wc-btn-border btn-hover-cropping" href="#">Join Now</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div> -->
-        <!-- Brand section end -->
-
-
-
-
-        <!-- Journey section start -->
-        <!-- <section class="health-journey__area">
-          <div class="health-container">
-            <div class="health-journey__inner">
-              <div class="health-journey__left">
-                <h2 class="sec-title-17 has_text_reveal_anim">It’s time <br> to start your <br> journey</h2>
-              </div>
-              <div class="health-journey__mid cf_image">
-                <img src="../assets/imgs/health/arrow-lg.png" alt="Icon">
-              </div>
-              <div class="health-journey__right">
-                <div class="cf_btn price__btn health-journey__btn">
-                  <a href="#" class="wc-btn-primary btn-hover-cropping">Get started
-                    <i class="fa-solid fa-chevron-right"></i>
-                  </a>
-                  <div class="price">$12</div>
-                </div>
-
-                <div class="cf_image health-journey__offer">
-                  <img src="../assets/imgs/health/offer.png" alt="Image">
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> -->
-        <!-- Journey section end -->
+        </section>
+        <!-- Price area end -->
 
 
         <!-- FAQ section start -->
-        <!-- <section class="health-faq__area pt-140 pb-140">
+        <section class="health-faq__area pt-130 pb-140">
           <div class="container">
             <div class="row">
               <div class="col-xxl-12">
@@ -805,20 +520,72 @@
               </div>
             </div>
           </div>
-
-          <div class="cf_image health-faq__leaf">
-            <img src="../assets/imgs/health/leaf-7.png" alt="Leaf Image" data-speed="0.7">
-          </div>
-
-          <div class="cf_image health-faq__leaf-2">
-            <img src="../assets/imgs/health/leaf-8.png" alt="Leaf Image" data-speed="1.3">
-          </div>
-        </section> -->
+        </section>
         <!-- FAQ section end -->
 
 
+        <!-- Brand section start -->
+        <div class="health-partner__area mbm-1">
+          <div class="health-container">
+            <div class="swiper brand_logo_slider" data-autoPlay="true" data-sliderSpeed="6000">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-01.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-01-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-02.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-02-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-03.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-03-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-04.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-05.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-07.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-07-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-06.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-07-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="brand__logo">
+                    <img src="../assets/imgs/athletic/br-04.png" alt="Brand Logo" class="show-dark">
+                    <img src="../assets/imgs/athletic/br-05-dark.png" alt="Brand Logo" class="show-light">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Brand section end -->
+
+
         <!-- Instagram section start -->
-        <!-- <div class="health-instagram__area">
+        <div class="health-instagram__area pt-130">
           <div class="health-container">
             <div class="health-instagram__inner">
               <div class="sec-title-wrap pb-65">
@@ -857,7 +624,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
         <!-- Instagram section end -->
 
 
@@ -865,7 +632,7 @@
 
 
       <!-- Footer section start -->
-      <!-- <footer class="health-footer__area">
+      <footer class="health-footer__area">
         <div class="health-footer__top">
           <div class="health-container">
             <div class="health-footer__top-wrap">
@@ -919,7 +686,7 @@
         <div class="cf_image health-footer__flower">
           <img src="../assets/imgs/health/flower.png" alt="Flower Image" data-speed=".75">
         </div>
-      </footer> -->
+      </footer>
       <!-- Footer section end -->
 
 
@@ -930,35 +697,24 @@
 
 
   <!-- All JS files -->
-<!-- jQuery -->
+  <!-- jQuery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <!-- Bootstrap Bundle -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-
-<!-- Swiper.js -->
-<script src="assets/js/swiper-bundle.min.js"></script>
-
-<!-- GSAP (GreenSock Animation Platform) -->
-<script src="assets/js/gsap.min.js"></script>
-
-<!-- GSAP Plugins -->
-
-<script src="assets/js/ScrollSmoother.min.js"></script>
-<script src="assets/js/ScrollToPlugin.min.js"></script>
-<script src="assets/js/ScrollTrigger.min.js"></script>
-<script src="assets/js/SplitText.min.js"></script>
-
-<!-- TweenMax -->
-<script src="assets/js/TweenMax.min.js"></script>
-
-<!-- MeanMenu -->
-<script src="assets/js/jquery.meanmenu.min.js"></script>
   <!-- <script src="../assets/js/jquery.magnific-popup.min.js"></script> -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
   <!-- <script src="../assets/js/counter.js"></script> -->
   <!-- <script src="../assets/js/typed.js"></script> -->
   <!-- <script src="../assets/js/mixitup.min.js"></script> -->
   <!-- <script src="../assets/js/progressbar.js"></script> -->
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollSmoother.min.js"></script>
+  <script src="assets/js/ScrollToPlugin.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="assets/js/SplitText.min.js"></script>
+  <script src="assets/js/TweenMax.min.js"></script>
+  <script src="assets/js/jquery.meanmenu.min.js"></script>
   <!-- <script src="../assets/js/beforeafter.jquery-1.0.0.min.js"></script> -->
   <!-- <script src="../assets/js/basictable.min.js"></script> -->
   <script src="assets/js/backToTop.js"></script>
