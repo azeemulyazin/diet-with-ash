@@ -24509,9 +24509,10 @@ ul li:last-child .default-details-comment-wrapper.has-reply::before {
 .health-journey__area {
   padding-top: 240px;
   padding-bottom: 210px;
-  background-image: url(../imgs/health/journey.jpg);
+  background-image: url(../img/cta.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 @media only screen and (max-width: 1399px) {
   .health-journey__area {
